@@ -21,8 +21,7 @@ app.get('/contracts', async (req, res) => {
         return res.status(500).json({ error: 'Sequelize not initialized. Please check your credentials.' });
     }
     try {
-        const { data, error } = await sequelize.models.Contract.findAll();
-        if (error) throw error;
+        const data = await sequelize.models.Contract.findAll();
         res.json(data);
     } catch (error) {
         res.status(500).json({ error: error.message });
