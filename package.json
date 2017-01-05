@@ -15,10 +15,12 @@
     "sequelize": "^6.37.3",
     "sharetribe-flex-sdk": "^1.21.1",
     "sqlite3": "^5.1.7",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.11.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-router": "^4.3.1",
-    "lodash": "^4.17.10",
     "react-helmet": "^3.3.0"
   },
   "devDependencies": {
@@ -27,9 +29,4 @@
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "backend-start": "node src/index.js",
-    "start": "npm run build&&node server/index.js"
-  }
-}
+    "test": "react-scripts test
