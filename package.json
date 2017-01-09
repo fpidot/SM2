@@ -32,7 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "backend-start": "node src/index.js",
+    "backend-start": "node backend.js",
     "start": "node server/index.js",
     "dev-server": "npm run build && nodemon --watch server server/index.js"
   }
