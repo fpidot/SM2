@@ -8,6 +8,8 @@
  * When the bundle created from this file is imported in the server
  * side, the exported `renderApp` function can be used for server side
  * rendering.
+ *
+ * Note that this file is required for the build process.
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
