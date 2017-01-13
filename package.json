@@ -32,6 +32,7 @@
     "dev": "sharetribe-scripts start",
     "build": "sharetribe-scripts build",
     "test": "sharetribe-scripts test --env=jsdom",
+    "test-ci": "sharetribe-scripts test --env=jsdom --runInBand",
     "eject": "sharetribe-scripts eject",
     "backend-start": "node backend.js",
     "start": "node server/index.js",
