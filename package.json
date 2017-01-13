@@ -23,7 +23,8 @@
     "react-test-renderer": "^15.4.2",
     "sequelize": "^6.37.3",
     "sharetribe-flex-sdk": "^1.21.1",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "source-map-support": "^0.4.8"
   },
   "devDependencies": {
     "react-scripts": "0.8.4",
