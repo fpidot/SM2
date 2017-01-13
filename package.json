@@ -39,6 +39,10 @@
     "eject": "sharetribe-scripts eject",
     "backend-start": "node backend.js",
     "start": "node server/index.js",
-    "dev-server": "yarn run build && nodemon --watch server server/index.js"
+    "dev-server": "yarn run build && nodemon --watch server server/index.js",
+    "heroku-postbuild": "yarn run build"
+  },
+  "engines": {
+    "node": "6.9"
   }
 }
