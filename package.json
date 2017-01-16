@@ -24,11 +24,11 @@
     "sequelize": "^6.37.3",
     "sharetribe-flex-sdk": "^1.21.1",
     "sqlite3": "^5.1.7",
+    "sharetribe-scripts": "0.8.4",
     "source-map-support": "^0.4.8"
   },
   "devDependencies": {
-    "react-scripts": "0.8.4",
-    "sharetribe-scripts": "0.8.4"
+    "react-scripts": "0.8.4"
   },
   "scripts": {
     "clean": "rm -rf build/*",
