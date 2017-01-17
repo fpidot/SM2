@@ -43,6 +43,7 @@
     "heroku-postbuild": "yarn run build"
   },
   "engines": {
-    "node": "6.9.4"
+    "node": "6.9.4",
+    "yarn": "0.19.1"
   }
 }
