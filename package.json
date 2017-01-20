@@ -24,7 +24,7 @@
     "sequelize": "^6.37.3",
     "sharetribe-flex-sdk": "^1.21.1",
     "sqlite3": "^5.1.7",
-    "sharetribe-scripts": "0.8.5",
+    "sharetribe-scripts": "0.8.6",
     "source-map-support": "^0.4.10"
   },
   "devDependencies": {
