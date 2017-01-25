@@ -30,6 +30,7 @@
     "sharetribe-flex-sdk": "^1.21.1",
     "sqlite3": "^5.1.7",
     "redux-form": "^6.4.3",
+    "sanitize.css": "^4.1.0",
     "sharetribe-scripts": "0.8.6",
     "source-map-support": "^0.4.10"
   },
