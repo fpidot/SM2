@@ -70,6 +70,7 @@ const EditListingWizard = props => {
     rootClassName,
     selectedTab,
     currentUser,
+    togglePageClassNames,
   } = props;
 
   const rootClasses = rootClassName || css.root;
@@ -163,6 +164,7 @@ const EditListingWizard = props => {
         }}
         onUpdateImageOrder={onUpdateImageOrder}
         currentUser={currentUser}
+        togglePageClassNames={togglePageClassNames}
       />
     </Tabs>
   );
@@ -203,6 +205,7 @@ EditListingWizard.propTypes = {
   rootClassName: string,
   selectedTab: oneOf(STEPS).isRequired,
   currentUser: propTypes.currentUser,
+  togglePageClassNames: func.isRequired,
 };
 
 export default EditListingWizard;
