@@ -69,7 +69,7 @@ const EditListingWizard = props => {
     onUpdateListingDraft,
     rootClassName,
     selectedTab,
-    stripeConnected,
+    currentUser,
   } = props;
 
   const rootClasses = rootClassName || css.root;
@@ -162,7 +162,7 @@ const EditListingWizard = props => {
           onCreateListing({ ...listing.attributes, country, images: updatedImages });
         }}
         onUpdateImageOrder={onUpdateImageOrder}
-        stripeConnected={stripeConnected}
+        currentUser={currentUser}
       />
     </Tabs>
   );
@@ -172,9 +172,10 @@ EditListingWizard.defaultProps = {
   className: null,
   listing: null,
   rootClassName: null,
+  currentUser: null,
 };
 
-const { array, arrayOf, bool, func, object, oneOf, shape, string } = PropTypes;
+const { array, arrayOf, func, object, oneOf, shape, string } = PropTypes;
 
 EditListingWizard.propTypes = {
   className: string,
@@ -201,7 +202,7 @@ EditListingWizard.propTypes = {
   onUpdateListingDraft: func.isRequired,
   rootClassName: string,
   selectedTab: oneOf(STEPS).isRequired,
-  stripeConnected: bool.isRequired,
+  currentUser: propTypes.currentUser,
 };
 
 export default EditListingWizard;
