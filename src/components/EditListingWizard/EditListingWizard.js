@@ -58,6 +58,7 @@ TestPanel.propTypes = {
 const EditListingWizard = props => {
   const {
     className,
+    fetchInProgress,
     flattenedRoutes,
     history,
     images,
@@ -65,6 +66,7 @@ const EditListingWizard = props => {
     onCreateListing,
     onCreateListingDraft,
     onImageUpload,
+    onPayoutDetailsSubmit,
     onUpdateImageOrder,
     onUpdateListingDraft,
     rootClassName,
@@ -155,9 +157,11 @@ const EditListingWizard = props => {
         tabLinkProps={{ name: 'EditListingPhotosPage' }}
         selected={selectedTab === PHOTOS}
         disabled={!stepsStatus[PHOTOS]}
+        fetchInProgress={fetchInProgress}
         listing={listing}
         images={images}
         onImageUpload={onImageUpload}
+        onPayoutDetailsSubmit={onPayoutDetailsSubmit}
         onSubmit={values => {
           const { country, images: updatedImages } = values;
           onCreateListing({ ...listing.attributes, country, images: updatedImages });
@@ -177,10 +181,11 @@ EditListingWizard.defaultProps = {
   currentUser: null,
 };
 
-const { array, arrayOf, func, object, oneOf, shape, string } = PropTypes;
+const { array, arrayOf, bool, func, object, oneOf, shape, string } = PropTypes;
 
 EditListingWizard.propTypes = {
   className: string,
+  fetchInProgress: bool.isRequired,
   flattenedRoutes: arrayOf(propTypes.route).isRequired,
   history: shape({
     push: func.isRequired,
@@ -200,6 +205,7 @@ EditListingWizard.propTypes = {
   onCreateListing: func.isRequired,
   onCreateListingDraft: func.isRequired,
   onImageUpload: func.isRequired,
+  onPayoutDetailsSubmit: func.isRequired,
   onUpdateImageOrder: func.isRequired,
   onUpdateListingDraft: func.isRequired,
   rootClassName: string,
