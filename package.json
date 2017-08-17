@@ -11,6 +11,7 @@
     "@supabase/supabase-js": "^2.43.4",
     "array-includes": "^3.0.2",
     "array.prototype.find": "^2.0.4",
+    "autosize": "^4.0.0",
     "basic-auth": "^1.1.0",
     "classnames": "^2.2.5",
     "compression": "^1.7.0",
