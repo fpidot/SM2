@@ -1,12 +1,13 @@
 @import '../../marketplace.css';
 
 :root {
-  --avatarSize: 100%;
-  --avatarSizeMedium: 61px;
-  --avatarSizeLarge: 120px;
+  --avatarSize: 40px;
+  --avatarSizeMedium: 60px;
+  --avatarSizeLarge: 96px;
 
   /* Base for all avatars */
   --avatarBase: {
+      font-family: "sofiapro", Helvetica, Arial, sans-serif;
       border-radius: 50%;
 
       /* Position possible initials to the center of the component */
@@ -27,7 +28,6 @@
   /* Font is specific to this component, but defining it in marketplace.css makes it easier
    * to change font if brand look-and-feel needs such changes.
    */
-  @apply --marketplaceSmallAvatarFontStyles;
   @apply --avatarBase;
 
   /* Layout */
@@ -42,6 +42,8 @@
 }
 
 .initials {
+  font-size: 14px;
+  font-weight: var(--fontWeightBold);
   padding-bottom: 4px;
 }
 
@@ -49,7 +51,6 @@
 /* Medium Avatar */
 
 .mediumAvatar {
-  @apply --marketplaceMediumAvatarFontStyles;
   @apply --avatarBase;
 
   /* Fixed dimensions */
@@ -58,6 +59,8 @@
 }
 
 .mediumAvatar .initials {
+  font-size: 20px;
+  font-weight: var(--fontWeightSemiBold);
   padding-bottom: 5px;
 }
 
@@ -65,7 +68,6 @@
 /* Large Avatar */
 
 .largeAvatar {
-  @apply --marketplaceH1FontStyles;
   @apply --avatarBase;
 
   /* Fixed dimensions */
@@ -74,5 +76,7 @@
 }
 
 .largeAvatar .initials {
+  font-size: 30px;
+  font-weight: var(--fontWeightSemiBold);
   padding-bottom: 6px;
 }
