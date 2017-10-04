@@ -163,6 +163,7 @@
   "InboxPage.salesTabTitle": "Hosting",
   "InboxPage.salesTitle": "Inbox: Hosting",
   "InboxPage.stateAccepted": "Accepted",
+  "InboxPage.stateCanceled": "Canceled",
   "InboxPage.stateDeclined": "Declined",
   "InboxPage.stateDelivered": "Delivered",
   "InboxPage.statePending": "Pending",
