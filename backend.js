@@ -2,12 +2,12 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
-const { supabase } = require('./supabaseClient');
-const contractsRouter = require('./routes/contracts');
-const usersRouter = require('./routes/users');
-const sequelize = require('./database');
-const Listing = require('./models/listing');
-const User = require('./models/user');
+const { supabase } = require('./src/supabaseClient');
+const contractsRouter = require('./src/routes/contracts');
+const usersRouter = require('./src/routes/users');
+const sequelize = require('./src/database');
+const Listing = require('./src/models/listing');
+const User = require('./src/models/user');
 
 const app = express();
 app.use(cors());
