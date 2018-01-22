@@ -55,7 +55,6 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -169,7 +168,6 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -302,7 +300,6 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -432,7 +429,6 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -562,7 +558,6 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -810,7 +805,6 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -921,7 +915,6 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -1035,7 +1028,6 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -1168,7 +1160,6 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -1298,7 +1289,6 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -1428,7 +1418,6 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -1676,7 +1665,6 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -1787,7 +1775,6 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -1901,7 +1888,6 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -2034,7 +2020,6 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -2164,7 +2149,6 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -2294,7 +2278,6 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -2542,7 +2525,6 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -2653,7 +2635,6 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -2767,7 +2748,6 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -2900,7 +2880,6 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -3030,7 +3009,6 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -3160,7 +3138,6 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -3408,7 +3385,6 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -3519,7 +3495,6 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -3633,7 +3608,6 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -3766,7 +3740,6 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -3896,7 +3869,6 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -4026,7 +3998,6 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -4274,7 +4245,6 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -4385,7 +4355,6 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -4499,7 +4468,6 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -4632,7 +4600,6 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -5021,7 +4988,6 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -5151,7 +5117,6 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -5399,7 +5364,6 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -5510,7 +5474,6 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -5624,7 +5587,6 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -5757,7 +5719,6 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -5887,7 +5848,6 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -6017,7 +5977,6 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -6265,7 +6224,6 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -6370,7 +6328,6 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -6484,7 +6441,6 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -6604,7 +6560,6 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -6722,7 +6677,6 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -6840,7 +6794,6 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -7076,7 +7029,6 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -7168,7 +7120,6 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -7282,7 +7233,6 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -7402,7 +7352,6 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -7520,7 +7469,6 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -7638,7 +7586,6 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -7874,7 +7821,6 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -7966,7 +7912,6 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -8080,7 +8025,6 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -8200,7 +8144,6 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -8318,7 +8261,6 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -8436,7 +8378,6 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -8672,7 +8613,6 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -8764,7 +8704,6 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -8878,7 +8817,6 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -8998,7 +8936,6 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -9116,7 +9053,6 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -9234,7 +9170,6 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -9470,7 +9405,6 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -9562,7 +9496,6 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -9676,7 +9609,6 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -9796,7 +9728,6 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -9914,7 +9845,6 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -10032,7 +9962,6 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -10268,7 +10197,6 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -10360,7 +10288,6 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -10467,7 +10394,6 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -10580,7 +10506,6 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -10691,7 +10616,6 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -10802,7 +10726,6 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -11031,7 +10954,6 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -11123,7 +11045,6 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
         currentListing={
           Object {
             "attributes": Object {
-              "address": "listing1 address",
               "closed": false,
               "customAttributes": Object {},
               "deleted": false,
@@ -11237,7 +11158,6 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -11357,7 +11277,6 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -11475,7 +11394,6 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
@@ -11593,7 +11511,6 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
             },
             "listing": Object {
               "attributes": Object {
-                "address": "listing1 address",
                 "closed": false,
                 "customAttributes": Object {},
                 "deleted": false,
@@ -11829,7 +11746,6 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
               },
               "listing": Object {
                 "attributes": Object {
-                  "address": "listing1 address",
                   "closed": false,
                   "customAttributes": Object {},
                   "deleted": false,
