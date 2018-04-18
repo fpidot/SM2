@@ -121,13 +121,13 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -252,13 +252,13 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -405,13 +405,13 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -533,13 +533,13 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -661,13 +661,13 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -763,10 +763,10 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -788,10 +788,10 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -925,13 +925,13 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -1053,13 +1053,13 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -1267,13 +1267,13 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -1398,13 +1398,13 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -1551,13 +1551,13 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -1679,13 +1679,13 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -1807,13 +1807,13 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -1909,10 +1909,10 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -1934,10 +1934,10 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -2071,13 +2071,13 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -2199,13 +2199,13 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -2413,13 +2413,13 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -2544,13 +2544,13 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -2697,13 +2697,13 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -2825,13 +2825,13 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -2953,13 +2953,13 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -3055,10 +3055,10 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -3080,10 +3080,10 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -3217,13 +3217,13 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -3345,13 +3345,13 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -3559,13 +3559,13 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -3690,13 +3690,13 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -3843,13 +3843,13 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -3971,13 +3971,13 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -4099,13 +4099,13 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -4201,10 +4201,10 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -4226,10 +4226,10 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -4363,13 +4363,13 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -4491,13 +4491,13 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -4705,13 +4705,13 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -4836,13 +4836,13 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -4989,13 +4989,13 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -5117,13 +5117,13 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -5245,13 +5245,13 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -5347,10 +5347,10 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -5372,10 +5372,10 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -5509,13 +5509,13 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -5637,13 +5637,13 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -5851,13 +5851,13 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -5982,13 +5982,13 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -6394,13 +6394,13 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -6522,13 +6522,13 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -6650,13 +6650,13 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -6752,10 +6752,10 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -6777,10 +6777,10 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -6914,13 +6914,13 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -7042,13 +7042,13 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -7256,13 +7256,13 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -7387,13 +7387,13 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -7540,13 +7540,13 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -7668,13 +7668,13 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -7796,13 +7796,13 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -7898,10 +7898,10 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -7923,10 +7923,10 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -8060,13 +8060,13 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -8188,13 +8188,13 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -8396,13 +8396,13 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -8514,13 +8514,13 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -8655,13 +8655,13 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -8771,13 +8771,13 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -8887,13 +8887,13 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -8977,10 +8977,10 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -9002,10 +9002,10 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -9139,13 +9139,13 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -9255,13 +9255,13 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -9450,13 +9450,13 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -9568,13 +9568,13 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -9709,13 +9709,13 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -9825,13 +9825,13 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -9941,13 +9941,13 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -10031,10 +10031,10 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -10056,10 +10056,10 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -10193,13 +10193,13 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -10309,13 +10309,13 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -10504,13 +10504,13 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -10622,13 +10622,13 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -10763,13 +10763,13 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -10879,13 +10879,13 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -10995,13 +10995,13 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -11085,10 +11085,10 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -11110,10 +11110,10 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -11247,13 +11247,13 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -11363,13 +11363,13 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -11558,13 +11558,13 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -11676,13 +11676,13 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -11817,13 +11817,13 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -11933,13 +11933,13 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -12049,13 +12049,13 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -12139,10 +12139,10 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -12164,10 +12164,10 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -12301,13 +12301,13 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -12417,13 +12417,13 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -12612,13 +12612,13 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -12730,13 +12730,13 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -12871,13 +12871,13 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -12987,13 +12987,13 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -13103,13 +13103,13 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -13193,10 +13193,10 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -13218,10 +13218,10 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -13355,13 +13355,13 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -13471,13 +13471,13 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -13659,13 +13659,13 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -13770,13 +13770,13 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -13911,13 +13911,13 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -14020,13 +14020,13 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -14129,13 +14129,13 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -14219,10 +14219,10 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -14244,10 +14244,10 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -14381,13 +14381,13 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -14490,13 +14490,13 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -14685,13 +14685,13 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -14803,13 +14803,13 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -14944,13 +14944,13 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -15060,13 +15060,13 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
@@ -15176,13 +15176,13 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
               },
               "transitions": Array [
                 Object {
-                  "at": 2017-05-01T00:00:00.000Z,
                   "by": "customer",
+                  "createdAt": 2017-05-01T00:00:00.000Z,
                   "transition": "transition/request",
                 },
                 Object {
-                  "at": 2017-06-01T00:00:00.000Z,
                   "by": "provider",
+                  "createdAt": 2017-06-01T00:00:00.000Z,
                   "transition": "transition/accept",
                 },
               ],
@@ -15266,10 +15266,10 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
           Array [
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg1
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg1",
@@ -15291,10 +15291,10 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
             },
             Object {
               "attributes": Object {
-                "at": 2017-11-09T08:12:00.000Z,
                 "content": "Message msg2
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
                 "uuid": "msg2",
@@ -15428,13 +15428,13 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                   },
                   "transitions": Array [
                     Object {
-                      "at": 2017-05-01T00:00:00.000Z,
                       "by": "customer",
+                      "createdAt": 2017-05-01T00:00:00.000Z,
                       "transition": "transition/request",
                     },
                     Object {
-                      "at": 2017-06-01T00:00:00.000Z,
                       "by": "provider",
+                      "createdAt": 2017-06-01T00:00:00.000Z,
                       "transition": "transition/accept",
                     },
                   ],
@@ -15544,13 +15544,13 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                 },
                 "transitions": Array [
                   Object {
-                    "at": 2017-05-01T00:00:00.000Z,
                     "by": "customer",
+                    "createdAt": 2017-05-01T00:00:00.000Z,
                     "transition": "transition/request",
                   },
                   Object {
-                    "at": 2017-06-01T00:00:00.000Z,
                     "by": "provider",
+                    "createdAt": 2017-06-01T00:00:00.000Z,
                     "transition": "transition/accept",
                   },
                 ],
