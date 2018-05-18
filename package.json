@@ -1,7 +1,6 @@
 {
-  "name": "sm2",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "app",
+  "version": "0.3.0",
   "private": true,
   "description": "",
   "keywords": [],
