@@ -8,6 +8,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@supabase/supabase-js": "^2.43.4",
+    "@mapbox/polyline": "^1.0.0",
     "array-includes": "^3.0.3",
     "array.prototype.find": "^2.0.4",
     "autosize": "^4.0.0",
