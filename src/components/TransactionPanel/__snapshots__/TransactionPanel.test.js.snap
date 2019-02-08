@@ -28,13 +28,83 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="accepted"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -575,7 +645,42 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="provider display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "provider display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "provider",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -610,13 +715,83 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="declined"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -1155,7 +1330,42 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="provider display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "provider display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "provider",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -1190,13 +1400,83 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="accepted"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -1737,7 +2017,42 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="provider display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "provider display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "provider",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -1772,13 +2087,83 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="declined"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -2317,7 +2702,42 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="provider display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "provider display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "provider",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -2352,13 +2772,83 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="deliveded"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -2914,7 +3404,42 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="provider display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "provider display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "provider",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -3107,13 +3632,83 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
         />
 
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="enquired"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
 
       <Component
@@ -3910,7 +4505,42 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="provider display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "provider display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "provider",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -3945,13 +4575,83 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="requested"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -4490,7 +5190,42 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="provider display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "provider display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "provider",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -4525,13 +5260,83 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="accepted"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -5072,7 +5877,42 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="customer display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "customer display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "customer",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -5107,13 +5947,83 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="declined"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -5652,7 +6562,42 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="customer display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "customer display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "customer",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -5687,13 +6632,83 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="accepted"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -6234,7 +7249,42 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="customer display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "customer display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "customer",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -6269,13 +7319,83 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="declined"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -6814,7 +7934,42 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="customer display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "customer display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "customer",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -6849,13 +8004,83 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="deliveded"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -7411,7 +8636,42 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="customer display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "customer display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "customer",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -7602,8 +8862,47 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
       />
 >>>>>>> 32fc6ba5 (Split TransactionPanel to dummy subcomponents)
       <PanelHeading
+<<<<<<< HEAD
         customerName="customer display name"
 >>>>>>> a7b7c58d (Extract transaction related code to its own util file)
+=======
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
+>>>>>>> 6440d0ce (Use UserDisplayName in TransactionPanel)
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
@@ -7738,8 +9037,47 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
         }
 =======
         panelHeadingState="enquired"
+<<<<<<< HEAD
 >>>>>>> 32fc6ba5 (Split TransactionPanel to dummy subcomponents)
         providerName="provider display name"
+=======
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
+>>>>>>> 6440d0ce (Use UserDisplayName in TransactionPanel)
       />
       <div>
         <AddressLinkMaybe
@@ -8256,7 +9594,42 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="customer display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "customer display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "customer",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
@@ -8291,13 +9664,83 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
         }
       />
       <PanelHeading
-        customerName="customer display name"
+        customerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "customer display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "customer",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
         isCustomerBanned={false}
         listingDeleted={false}
         listingId="listing1"
         listingTitle="listing1 title"
         panelHeadingState="requested"
-        providerName="provider display name"
+        providerName={
+          <UserDisplayName
+            bannedUserDisplayName={null}
+            className={null}
+            deletedUserDisplayName={null}
+            intl={
+              Object {
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "now": [Function],
+              }
+            }
+            rootClassName={null}
+            user={
+              Object {
+                "attributes": Object {
+                  "banned": false,
+                  "deleted": false,
+                  "profile": Object {
+                    "abbreviatedName": "TT",
+                    "displayName": "provider display name",
+                  },
+                },
+                "id": UUID {
+                  "uuid": "provider",
+                },
+                "type": "user",
+              }
+            }
+          />
+        }
       />
       <div>
         <AddressLinkMaybe
@@ -8836,7 +10279,42 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
     onManageDisableScrolling={[Function]}
     onSubmitReview={[Function]}
     reviewSent={false}
-    revieweeName="customer display name"
+    revieweeName={
+      <UserDisplayName
+        bannedUserDisplayName={null}
+        className={null}
+        deletedUserDisplayName={null}
+        intl={
+          Object {
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "now": [Function],
+          }
+        }
+        rootClassName={null}
+        user={
+          Object {
+            "attributes": Object {
+              "banned": false,
+              "deleted": false,
+              "profile": Object {
+                "abbreviatedName": "TT",
+                "displayName": "customer display name",
+              },
+            },
+            "id": UUID {
+              "uuid": "customer",
+            },
+            "type": "user",
+          }
+        }
+      />
+    }
     sendReviewError={null}
     sendReviewInProgress={false}
   />
