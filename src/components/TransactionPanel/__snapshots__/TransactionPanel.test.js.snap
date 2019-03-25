@@ -181,6 +181,8 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -311,6 +313,8 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -570,6 +574,8 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -867,6 +873,8 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -997,6 +1005,8 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -1255,6 +1265,8 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -1553,6 +1565,8 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -1683,6 +1697,8 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -1942,6 +1958,8 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -2239,6 +2257,8 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -2369,6 +2389,8 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -2627,6 +2649,8 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -2930,6 +2954,8 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -3065,6 +3091,8 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -3329,6 +3357,8 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -4043,6 +4073,8 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -4173,6 +4205,8 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -4430,6 +4464,8 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -4727,6 +4763,8 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -4857,6 +4895,8 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -5115,6 +5155,8 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -5413,6 +5455,8 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -5543,6 +5587,8 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -5802,6 +5848,8 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -6099,6 +6147,8 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -6229,6 +6279,8 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -6487,6 +6539,8 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -6785,6 +6839,8 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -6915,6 +6971,8 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -7174,6 +7232,8 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -7471,6 +7531,8 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -7601,6 +7663,8 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -7859,6 +7923,8 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -8162,6 +8228,8 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -8297,6 +8365,8 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -8561,6 +8631,8 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -9146,6 +9218,8 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -9269,6 +9343,8 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -9519,6 +9595,8 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -9816,6 +9894,8 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
@@ -9946,6 +10026,8 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
             },
             "booking": Object {
               "attributes": Object {
+                "displayEnd": 2017-06-13T00:00:00.000Z,
+                "displayStart": 2017-06-10T00:00:00.000Z,
                 "end": 2017-06-13T00:00:00.000Z,
                 "start": 2017-06-10T00:00:00.000Z,
               },
@@ -10204,6 +10286,8 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
               },
               "booking": Object {
                 "attributes": Object {
+                  "displayEnd": 2017-06-13T00:00:00.000Z,
+                  "displayStart": 2017-06-10T00:00:00.000Z,
                   "end": 2017-06-13T00:00:00.000Z,
                   "start": 2017-06-10T00:00:00.000Z,
                 },
