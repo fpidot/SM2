@@ -407,8 +407,8 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -433,8 +433,8 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -1098,8 +1098,8 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -1124,8 +1124,8 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -1789,8 +1789,8 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -1815,8 +1815,8 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -2480,8 +2480,8 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -2506,8 +2506,8 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -3181,8 +3181,8 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -3207,8 +3207,8 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -4294,8 +4294,8 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -4320,8 +4320,8 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -4983,8 +4983,8 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -5009,8 +5009,8 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -5674,8 +5674,8 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -5700,8 +5700,8 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -6365,8 +6365,8 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -6391,8 +6391,8 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -7056,8 +7056,8 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -7082,8 +7082,8 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -7747,8 +7747,8 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -7773,8 +7773,8 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -8448,8 +8448,8 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -8474,8 +8474,8 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -9425,8 +9425,8 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -9451,8 +9451,8 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -10107,8 +10107,8 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg1
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
@@ -10133,8 +10133,8 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
             Object {
               "attributes": Object {
                 "content": "Message msg2
-          
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
