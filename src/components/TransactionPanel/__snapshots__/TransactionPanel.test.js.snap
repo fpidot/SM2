@@ -21,6 +21,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -57,6 +58,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -98,6 +100,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -110,6 +113,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -132,12 +136,14 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -148,21 +154,25 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -187,6 +197,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -201,11 +212,13 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-accepted",
               },
               "listing": Object {
@@ -213,10 +226,12 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -225,6 +240,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -239,6 +255,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -264,12 +281,14 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -280,21 +299,25 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16400,
                 "currency": "USD",
               },
@@ -319,6 +342,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -333,11 +357,13 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "order-accepted",
             },
             "listing": Object {
@@ -345,10 +371,12 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -357,6 +385,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -371,6 +400,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -394,6 +424,7 @@ exports[`TransactionPanel - Order accepted matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "currentUser",
@@ -412,6 +443,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -424,6 +456,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -438,6 +471,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -450,6 +484,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -490,6 +525,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -499,6 +535,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -524,12 +561,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -540,21 +579,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -579,6 +622,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -593,11 +637,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-accepted",
               },
               "listing": Object {
@@ -605,10 +651,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -617,6 +665,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -631,6 +680,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -679,6 +729,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -713,6 +764,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -749,6 +801,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -790,6 +843,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -802,6 +856,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -823,12 +878,14 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -839,21 +896,25 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -878,6 +939,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -892,11 +954,13 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-autodeclined",
               },
               "listing": Object {
@@ -904,10 +968,12 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -916,6 +982,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -930,6 +997,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -955,12 +1023,14 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -971,21 +1041,25 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16400,
                 "currency": "USD",
               },
@@ -1010,6 +1084,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -1024,11 +1099,13 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "order-autodeclined",
             },
             "listing": Object {
@@ -1036,10 +1113,12 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -1048,6 +1127,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -1062,6 +1142,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -1085,6 +1166,7 @@ exports[`TransactionPanel - Order autodeclined matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "currentUser",
@@ -1103,6 +1185,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -1115,6 +1198,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -1129,6 +1213,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -1141,6 +1226,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -1181,6 +1267,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -1190,6 +1277,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -1214,12 +1302,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -1230,21 +1320,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -1269,6 +1363,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -1283,11 +1378,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-autodeclined",
               },
               "listing": Object {
@@ -1295,10 +1392,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -1307,6 +1406,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -1321,6 +1421,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -1369,6 +1470,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -1403,6 +1505,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -1439,6 +1542,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -1480,6 +1584,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -1492,6 +1597,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -1514,12 +1620,14 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -1530,21 +1638,25 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -1569,6 +1681,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -1583,11 +1696,13 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-canceled",
               },
               "listing": Object {
@@ -1595,10 +1710,12 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -1607,6 +1724,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -1621,6 +1739,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -1646,12 +1765,14 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -1662,21 +1783,25 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16400,
                 "currency": "USD",
               },
@@ -1701,6 +1826,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -1715,11 +1841,13 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "order-canceled",
             },
             "listing": Object {
@@ -1727,10 +1855,12 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -1739,6 +1869,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -1753,6 +1884,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -1776,6 +1908,7 @@ exports[`TransactionPanel - Order canceled matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "currentUser",
@@ -1794,6 +1927,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -1806,6 +1940,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -1820,6 +1955,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -1832,6 +1968,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -1872,6 +2009,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -1881,6 +2019,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -1906,12 +2045,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -1922,21 +2063,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -1961,6 +2106,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -1975,11 +2121,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-canceled",
               },
               "listing": Object {
@@ -1987,10 +2135,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -1999,6 +2149,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -2013,6 +2164,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -2061,6 +2213,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -2095,6 +2248,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -2131,6 +2285,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -2172,6 +2327,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -2184,6 +2340,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -2205,12 +2362,14 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -2221,21 +2380,25 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -2260,6 +2423,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -2274,11 +2438,13 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-declined",
               },
               "listing": Object {
@@ -2286,10 +2452,12 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -2298,6 +2466,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -2312,6 +2481,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -2337,12 +2507,14 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -2353,21 +2525,25 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16400,
                 "currency": "USD",
               },
@@ -2392,6 +2568,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -2406,11 +2583,13 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "order-declined",
             },
             "listing": Object {
@@ -2418,10 +2597,12 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -2430,6 +2611,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -2444,6 +2626,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -2467,6 +2650,7 @@ exports[`TransactionPanel - Order declined matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "currentUser",
@@ -2485,6 +2669,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -2497,6 +2682,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -2511,6 +2697,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -2523,6 +2710,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -2563,6 +2751,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -2572,6 +2761,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -2596,12 +2786,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -2612,21 +2804,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -2651,6 +2847,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -2665,11 +2862,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-declined",
               },
               "listing": Object {
@@ -2677,10 +2876,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -2689,6 +2890,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -2703,6 +2905,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -2751,6 +2954,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -2785,6 +2989,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -2821,6 +3026,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -2862,6 +3068,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -2874,6 +3081,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -2896,12 +3104,14 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -2912,21 +3122,25 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -2956,6 +3170,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -2970,11 +3185,13 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-delivered",
               },
               "listing": Object {
@@ -2982,10 +3199,12 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -2994,6 +3213,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -3008,6 +3228,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -3033,12 +3254,14 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -3049,21 +3272,25 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16400,
                 "currency": "USD",
               },
@@ -3093,6 +3320,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -3107,11 +3335,13 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "order-delivered",
             },
             "listing": Object {
@@ -3119,10 +3349,12 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -3131,6 +3363,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -3145,6 +3378,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -3168,6 +3402,7 @@ exports[`TransactionPanel - Order delivered matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "currentUser",
@@ -3186,6 +3421,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -3198,6 +3434,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -3212,6 +3449,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -3224,6 +3462,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -3264,6 +3503,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -3273,6 +3513,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -3298,12 +3539,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -3314,21 +3557,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -3358,6 +3605,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -3372,11 +3620,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-delivered",
               },
               "listing": Object {
@@ -3384,10 +3634,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -3396,6 +3648,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -3410,6 +3663,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -3458,6 +3712,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -3492,6 +3747,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -3686,6 +3942,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -3727,6 +3984,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -3998,6 +4256,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -4019,12 +4278,14 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -4035,21 +4296,25 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -4074,6 +4339,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -4088,11 +4354,13 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-enquired",
               },
               "listing": Object {
@@ -4100,10 +4368,12 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -4112,6 +4382,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -4126,6 +4397,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -4151,12 +4423,14 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -4167,21 +4441,25 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16400,
                 "currency": "USD",
               },
@@ -4206,6 +4484,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -4220,11 +4499,13 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "order-enquired",
             },
             "listing": Object {
@@ -4232,10 +4513,12 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -4244,6 +4527,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -4258,6 +4542,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -4281,6 +4566,7 @@ exports[`TransactionPanel - Order enquired matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "currentUser",
@@ -4299,6 +4585,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -4311,6 +4598,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -4325,6 +4613,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -4337,6 +4626,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -4377,6 +4667,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -4386,6 +4677,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -4409,12 +4701,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -4425,21 +4719,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -4464,6 +4762,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -4478,11 +4777,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-enquired",
               },
               "listing": Object {
@@ -4490,10 +4791,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -4502,6 +4805,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -4516,6 +4820,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -4564,6 +4869,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -4598,6 +4904,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -4634,6 +4941,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -4675,6 +4983,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -4687,6 +4996,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -4708,12 +5018,14 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -4724,21 +5036,25 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -4763,6 +5079,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -4777,11 +5094,13 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-preauthorized",
               },
               "listing": Object {
@@ -4789,10 +5108,12 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -4801,6 +5122,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -4815,6 +5137,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -4840,12 +5163,14 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -4856,21 +5181,25 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -100,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16400,
                 "currency": "USD",
               },
@@ -4895,6 +5224,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -4909,11 +5239,13 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "order-preauthorized",
             },
             "listing": Object {
@@ -4921,10 +5253,12 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -4933,6 +5267,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -4947,6 +5282,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -4970,6 +5306,7 @@ exports[`TransactionPanel - Order preauthorized matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "currentUser",
@@ -4988,6 +5325,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -5000,6 +5338,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -5014,6 +5353,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -5026,6 +5366,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -5066,6 +5407,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -5075,6 +5417,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -5099,12 +5442,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -5115,21 +5460,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -100,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16400,
                   "currency": "USD",
                 },
@@ -5154,6 +5503,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -5168,11 +5518,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "order-preauthorized",
               },
               "listing": Object {
@@ -5180,10 +5532,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -5192,6 +5546,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -5206,6 +5561,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -5254,6 +5610,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -5288,6 +5645,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -5324,6 +5682,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -5365,6 +5724,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -5377,6 +5737,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -5399,12 +5760,14 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -5415,21 +5778,25 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -5454,6 +5821,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -5468,11 +5836,13 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-accepted",
               },
               "listing": Object {
@@ -5480,10 +5850,12 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -5492,6 +5864,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -5506,6 +5879,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -5531,12 +5905,14 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -5547,21 +5923,25 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 15500,
                 "currency": "USD",
               },
@@ -5586,6 +5966,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -5600,11 +5981,13 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "sale-accepted",
             },
             "listing": Object {
@@ -5612,10 +5995,12 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -5624,6 +6009,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -5638,6 +6024,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -5661,6 +6048,7 @@ exports[`TransactionPanel - Sale accepted matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "currentUser",
@@ -5679,6 +6067,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -5691,6 +6080,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -5705,6 +6095,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -5717,6 +6108,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -5757,6 +6149,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -5766,6 +6159,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -5791,12 +6185,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -5807,21 +6203,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -5846,6 +6246,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -5860,11 +6261,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-accepted",
               },
               "listing": Object {
@@ -5872,10 +6275,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -5884,6 +6289,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -5898,6 +6304,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -5946,6 +6353,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "user",
@@ -5980,6 +6388,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -6016,6 +6425,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -6057,6 +6467,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -6069,6 +6480,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -6090,12 +6502,14 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -6106,21 +6520,25 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -6145,6 +6563,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -6159,11 +6578,13 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-autodeclined",
               },
               "listing": Object {
@@ -6171,10 +6592,12 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -6183,6 +6606,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -6197,6 +6621,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -6222,12 +6647,14 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -6238,21 +6665,25 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 15500,
                 "currency": "USD",
               },
@@ -6277,6 +6708,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -6291,11 +6723,13 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "sale-autodeclined",
             },
             "listing": Object {
@@ -6303,10 +6737,12 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -6315,6 +6751,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -6329,6 +6766,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -6352,6 +6790,7 @@ exports[`TransactionPanel - Sale autodeclined matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "currentUser",
@@ -6370,6 +6809,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -6382,6 +6822,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -6396,6 +6837,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -6408,6 +6850,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -6448,6 +6891,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -6457,6 +6901,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -6481,12 +6926,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -6497,21 +6944,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -6536,6 +6987,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -6550,11 +7002,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-autodeclined",
               },
               "listing": Object {
@@ -6562,10 +7016,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -6574,6 +7030,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -6588,6 +7045,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -6636,6 +7094,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "user",
@@ -6670,6 +7129,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -6706,6 +7166,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -6747,6 +7208,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -6759,6 +7221,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -6781,12 +7244,14 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -6797,21 +7262,25 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -6836,6 +7305,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -6850,11 +7320,13 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-canceled",
               },
               "listing": Object {
@@ -6862,10 +7334,12 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -6874,6 +7348,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -6888,6 +7363,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -6913,12 +7389,14 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -6929,21 +7407,25 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 15500,
                 "currency": "USD",
               },
@@ -6968,6 +7450,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -6982,11 +7465,13 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "sale-canceled",
             },
             "listing": Object {
@@ -6994,10 +7479,12 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -7006,6 +7493,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -7020,6 +7508,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -7043,6 +7532,7 @@ exports[`TransactionPanel - Sale canceled matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "currentUser",
@@ -7061,6 +7551,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -7073,6 +7564,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -7087,6 +7579,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -7099,6 +7592,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -7139,6 +7633,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -7148,6 +7643,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -7173,12 +7669,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -7189,21 +7687,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -7228,6 +7730,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -7242,11 +7745,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-canceled",
               },
               "listing": Object {
@@ -7254,10 +7759,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -7266,6 +7773,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -7280,6 +7788,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -7328,6 +7837,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "user",
@@ -7362,6 +7872,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -7398,6 +7909,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -7439,6 +7951,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -7451,6 +7964,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -7472,12 +7986,14 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -7488,21 +8004,25 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -7527,6 +8047,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -7541,11 +8062,13 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-declined",
               },
               "listing": Object {
@@ -7553,10 +8076,12 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -7565,6 +8090,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -7579,6 +8105,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -7604,12 +8131,14 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -7620,21 +8149,25 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 15500,
                 "currency": "USD",
               },
@@ -7659,6 +8192,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -7673,11 +8207,13 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "sale-declined",
             },
             "listing": Object {
@@ -7685,10 +8221,12 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -7697,6 +8235,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -7711,6 +8250,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -7734,6 +8274,7 @@ exports[`TransactionPanel - Sale declined matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "currentUser",
@@ -7752,6 +8293,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -7764,6 +8306,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -7778,6 +8321,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -7790,6 +8334,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -7830,6 +8375,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -7839,6 +8385,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -7863,12 +8410,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -7879,21 +8428,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -7918,6 +8471,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -7932,11 +8486,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-declined",
               },
               "listing": Object {
@@ -7944,10 +8500,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -7956,6 +8514,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -7970,6 +8529,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -8018,6 +8578,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "user",
@@ -8052,6 +8613,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -8088,6 +8650,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -8129,6 +8692,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -8141,6 +8705,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -8163,12 +8728,14 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -8179,21 +8746,25 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -8223,6 +8794,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -8237,11 +8809,13 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-delivered",
               },
               "listing": Object {
@@ -8249,10 +8823,12 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -8261,6 +8837,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -8275,6 +8852,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -8300,12 +8878,14 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -8316,21 +8896,25 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 15500,
                 "currency": "USD",
               },
@@ -8360,6 +8944,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -8374,11 +8959,13 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "sale-delivered",
             },
             "listing": Object {
@@ -8386,10 +8973,12 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -8398,6 +8987,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -8412,6 +9002,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -8435,6 +9026,7 @@ exports[`TransactionPanel - Sale delivered matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "currentUser",
@@ -8453,6 +9045,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -8465,6 +9058,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -8479,6 +9073,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -8491,6 +9086,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -8531,6 +9127,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -8540,6 +9137,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -8565,12 +9163,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -8581,21 +9181,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -8625,6 +9229,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -8639,11 +9244,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-delivered",
               },
               "listing": Object {
@@ -8651,10 +9258,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -8663,6 +9272,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -8677,6 +9287,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -8725,6 +9336,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "user",
@@ -8759,6 +9371,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -8955,6 +9568,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -9130,6 +9744,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -9143,6 +9758,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -9160,12 +9776,14 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   Object {
                     "code": "line-item/night",
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -9173,21 +9791,25 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   Object {
                     "code": "line-item/provider-commission",
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -9212,6 +9834,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -9226,11 +9849,13 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-enquired",
               },
               "listing": Object {
@@ -9238,10 +9863,12 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -9250,6 +9877,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -9264,6 +9892,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -9285,12 +9914,14 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                 Object {
                   "code": "line-item/night",
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -9298,21 +9929,25 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                 Object {
                   "code": "line-item/provider-commission",
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 15500,
                 "currency": "USD",
               },
@@ -9337,6 +9972,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -9351,11 +9987,13 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "sale-enquired",
             },
             "listing": Object {
@@ -9363,10 +10001,12 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -9375,6 +10015,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -9389,6 +10030,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -9412,6 +10054,7 @@ exports[`TransactionPanel - Sale enquired matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "currentUser",
@@ -9430,6 +10073,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -9442,6 +10086,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -9456,6 +10101,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -9468,6 +10114,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -9508,6 +10155,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -9517,6 +10165,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -9536,12 +10185,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   Object {
                     "code": "line-item/night",
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -9549,21 +10200,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   Object {
                     "code": "line-item/provider-commission",
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -9588,6 +10243,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -9602,11 +10258,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-enquired",
               },
               "listing": Object {
@@ -9614,10 +10272,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -9626,6 +10286,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -9640,6 +10301,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -9688,6 +10350,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "user",
@@ -9722,6 +10385,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "user",
@@ -9758,6 +10422,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -9799,6 +10464,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -9811,6 +10477,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
         <AddressLinkMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -9832,12 +10499,14 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -9848,21 +10517,25 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -9887,6 +10560,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -9901,11 +10575,13 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-preauthorized",
               },
               "listing": Object {
@@ -9913,10 +10589,12 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -9925,6 +10603,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -9939,6 +10618,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -9964,12 +10644,14 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": 16500,
                     "currency": "USD",
                   },
                   "quantity": "3",
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -9980,21 +10662,25 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                     "provider",
                   ],
                   "lineTotal": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                   "reversal": false,
                   "unitPrice": Money {
+                    "_sdkType": "Money",
                     "amount": -1000,
                     "currency": "USD",
                   },
                 },
               ],
               "payinTotal": Money {
+                "_sdkType": "Money",
                 "amount": 16500,
                 "currency": "USD",
               },
               "payoutTotal": Money {
+                "_sdkType": "Money",
                 "amount": 15500,
                 "currency": "USD",
               },
@@ -10019,6 +10705,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                 "start": 2017-06-10T00:00:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "booking1",
               },
               "type": "booking",
@@ -10033,11 +10720,13 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "customer",
               },
               "type": "user",
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "sale-preauthorized",
             },
             "listing": Object {
@@ -10045,10 +10734,12 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                 "deleted": false,
                 "description": "listing1 description",
                 "geolocation": LatLng {
+                  "_sdkType": "LatLng",
                   "lat": 40,
                   "lng": 60,
                 },
                 "price": Money {
+                  "_sdkType": "Money",
                   "amount": 5500,
                   "currency": "USD",
                 },
@@ -10057,6 +10748,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                 "title": "listing1 title",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "listing1",
               },
               "type": "listing",
@@ -10071,6 +10763,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -10094,6 +10787,7 @@ exports[`TransactionPanel - Sale preauthorized matches snapshot 1`] = `
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "provider",
             },
             "type": "currentUser",
@@ -10112,6 +10806,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg1",
               },
               "sender": Object {
@@ -10124,6 +10819,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
@@ -10138,6 +10834,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 "createdAt": 2017-11-09T08:12:00.000Z,
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "msg2",
               },
               "sender": Object {
@@ -10150,6 +10847,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -10190,6 +10888,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 },
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "provider",
               },
               "type": "user",
@@ -10199,6 +10898,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <DetailCardHeadingsMaybe
           geolocation={
             LatLng {
+              "_sdkType": "LatLng",
               "lat": 40,
               "lng": 60,
             }
@@ -10223,12 +10923,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": 16500,
                       "currency": "USD",
                     },
                     "quantity": "3",
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": 5500,
                       "currency": "USD",
                     },
@@ -10239,21 +10941,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                       "provider",
                     ],
                     "lineTotal": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                     "reversal": false,
                     "unitPrice": Money {
+                      "_sdkType": "Money",
                       "amount": -1000,
                       "currency": "USD",
                     },
                   },
                 ],
                 "payinTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 16500,
                   "currency": "USD",
                 },
                 "payoutTotal": Money {
+                  "_sdkType": "Money",
                   "amount": 15500,
                   "currency": "USD",
                 },
@@ -10278,6 +10984,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "start": 2017-06-10T00:00:00.000Z,
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "booking1",
                 },
                 "type": "booking",
@@ -10292,11 +10999,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "customer",
                 },
                 "type": "user",
               },
               "id": UUID {
+                "_sdkType": "UUID",
                 "uuid": "sale-preauthorized",
               },
               "listing": Object {
@@ -10304,10 +11013,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "deleted": false,
                   "description": "listing1 description",
                   "geolocation": LatLng {
+                    "_sdkType": "LatLng",
                     "lat": 40,
                     "lng": 60,
                   },
                   "price": Money {
+                    "_sdkType": "Money",
                     "amount": 5500,
                     "currency": "USD",
                   },
@@ -10316,6 +11027,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   "title": "listing1 title",
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "listing1",
                 },
                 "type": "listing",
@@ -10330,6 +11042,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                   },
                 },
                 "id": UUID {
+                  "_sdkType": "UUID",
                   "uuid": "provider",
                 },
                 "type": "user",
@@ -10378,6 +11091,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
               },
             },
             "id": UUID {
+              "_sdkType": "UUID",
               "uuid": "customer",
             },
             "type": "user",
