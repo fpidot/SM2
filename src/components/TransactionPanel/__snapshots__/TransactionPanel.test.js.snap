@@ -509,7 +509,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -1266,7 +1266,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -2023,7 +2023,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -2780,7 +2780,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -3547,7 +3547,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -4726,7 +4726,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -5481,7 +5481,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -6238,7 +6238,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -6995,7 +6995,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -7752,7 +7752,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -8509,7 +8509,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -9266,7 +9266,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -10304,7 +10304,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
@@ -11052,7 +11052,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         totalMessagePages={1}
       />
       <SendMessageForm
-        form="TransactionPanel.SendMessageForm"
+        formId="TransactionPanel.SendMessageForm"
         inProgress={false}
         messagePlaceholder="TransactionPanel.sendMessagePlaceholder"
         onBlur={[Function]}
