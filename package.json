@@ -9,6 +9,7 @@
   "dependencies": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@supabase/supabase-js": "^2.43.4",
 =======
     "@babel/runtime": "^7.11.2",
@@ -19,6 +20,9 @@
 =======
     "@babel/runtime": "^7.16.3",
 >>>>>>> 539a0947 (Update babel-runtime)
+=======
+    "@babel/runtime": "^7.17.9",
+>>>>>>> 375898cd (Update @babel/runtime 7.16.3 > 7.17.9)
     "@formatjs/intl-relativetimeformat": "^9.3.2",
 >>>>>>> 72692868 (Update intl-related packages)
     "@loadable/component": "^5.14.1",
