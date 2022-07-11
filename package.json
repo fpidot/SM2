@@ -37,10 +37,17 @@
     "jose": "4.8.1",
     "lodash": "^4.17.21",
     "mapbox-gl-multitouch": "^1.0.3",
+<<<<<<< HEAD
     "moment": "^2.22.2",
     "object.entries": "^1.1.2",
     "object.values": "^1.1.1",
     "passport": "^0.4.1",
+=======
+    "moment": "^2.29.4",
+    "object.entries": "^1.1.5",
+    "object.values": "^1.1.5",
+    "passport": "^0.5.3",
+>>>>>>> 89144d99 (Bump moment from 2.29.3 to 2.29.4)
     "passport-facebook": "^3.0.0",
     "passport-google-oauth": "^2.0.0",
     "path-to-regexp": "^6.1.0",
