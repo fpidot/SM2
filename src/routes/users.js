@@ -12,6 +12,16 @@ router.get('/', async (req, res) => {
     }
 });
 
+// Create a new user
+router.post('/', async (req, res) => {
+    try {
+        const newUser = await User.create(req.body);
+        res.json(newUser);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
 // Update user balance
 router.put('/:id/balance', async (req, res) => {
     try {
