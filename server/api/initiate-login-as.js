@@ -8,7 +8,9 @@ const USING_SSL = process.env.REACT_APP_SHARETRIBE_USING_SSL === 'true';
 
 // redirect_uri param used when initiating a login as authentication flow and
 // when requesting a token using an authorization code
-const loginAsRedirectUri = `${ROOT_URL.replace(/\/$/, '')}/api/login-as`;
+const loginAsRedirectUri = `${process.env.ROOT_URL.replace(/\/$/, '')}/api/login-as`;
+
+console.log('loginAsRedirectUri:', loginAsRedirectUri);
 
 // Cookies used for authorization code authentication.
 const stateKey = `st-${CLIENT_ID}-oauth2State`;

@@ -178,3 +178,6 @@ export const renderApp = (
   const { helmet: head } = helmetContext;
   return { head, body };
 };
+console.log('ROOT_URL:', process.env.ROOT_URL);
+console.log('REACT_APP_SHARETRIBE_SDK_CLIENT_ID:', process.env.REACT_APP_SHARETRIBE_SDK_CLIENT_ID);
+console.log('REACT_APP_MAPBOX_ACCESS_TOKEN:', process.env.REACT_APP_MAPBOX_ACCESS_TOKEN);

@@ -19,6 +19,11 @@ require('source-map-support').install();
 // Configure process.env with .env.* files
 require('./env').configureEnv();
 
+console.log('NODE_ENV:', process.env.NODE_ENV);
+console.log('ROOT_URL:', process.env.ROOT_URL);
+console.log('REACT_APP_SHARETRIBE_SDK_CLIENT_ID:', process.env.REACT_APP_SHARETRIBE_SDK_CLIENT_ID);
+console.log('SUPABASE_URL:', process.env.SUPABASE_URL);
+
 const http = require('http');
 const https = require('https');
 const express = require('express');
@@ -46,7 +51,7 @@ const sdkUtils = require('./api-util/sdk');
 const buildPath = path.resolve(__dirname, '..', 'build');
 const env = process.env.REACT_APP_ENV;
 const dev = process.env.REACT_APP_ENV === 'development';
-const PORT = parseInt(process.env.PORT, 10);
+const PORT = process.env.PORT || 3000;
 const CLIENT_ID = process.env.REACT_APP_SHARETRIBE_SDK_CLIENT_ID;
 const BASE_URL = process.env.REACT_APP_SHARETRIBE_SDK_BASE_URL;
 const ASSET_CDN_BASE_URL = process.env.REACT_APP_SHARETRIBE_SDK_ASSET_CDN_BASE_URL;
