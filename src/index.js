@@ -15,8 +15,21 @@ app.use(express.json());
 app.use('/contracts', contractsRouter);
 app.use('/users', usersRouter);
 
-const PORT = process.env.PORT || 3000;
+// Example endpoint to get contracts
+app.get('/contracts', async (req, res) => {
+    if (!sequelize) {
+        return res.status(500).json({ error: 'Sequelize not initialized. Please check your credentials.' });
+    }
+    try {
+        const { data, error } = await sequelize.models.Contract.findAll();
+        if (error) throw error;
+        res.json(data);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
 
+const PORT = process.env.PORT || 3000;
 sequelize.sync().then(() => {
     app.listen(PORT, () => {
         console.log(`Server running on port ${PORT}`);
