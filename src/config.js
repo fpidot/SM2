@@ -5,6 +5,7 @@ import { currencyConfiguration } from './currency-config';
 
 const env = process.env.REACT_APP_ENV;
 const dev = process.env.REACT_APP_ENV === 'development';
+const backendUrl = process.env.REACT_APP_API_BASE_URL || 'http://localhost:3501';
 
 // CDN assets for the app. Configurable through Flex Console.
 // Currently, only translation.json is available.
@@ -240,6 +241,7 @@ const config = {
   usingSSL,
   maps,
   custom,
+  API_BASE_URL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:3501',
 };
 
 export default config;

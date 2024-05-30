@@ -80,4 +80,9 @@ router.get('/auth/google', authenticateGoogle);
 // loginWithIdp endpoint in Flex API to authenticate user to Flex
 router.get('/auth/google/callback', authenticateGoogleCallback);
 
+router.get('/listings', (req, res) => {
+  // Logic to fetch and return listings
+  res.json({ message: 'List of listings' });
+});
+
 module.exports = router;
