@@ -1,8 +1,5 @@
-// NOTE: this server is purely a dev-mode server. In production, the
-// server/index.js server also serves the API routes.
-
 // Configure process.env with .env.* files
-require('./env').configureEnv();
+require('./env');
 
 const express = require('express');
 const cookieParser = require('cookie-parser');
@@ -12,11 +9,14 @@ const apiRouter = require('./apiRouter');
 const wellKnownRouter = require('./wellKnownRouter');
 
 const radix = 10;
-const PORT = parseInt(process.env.REACT_APP_DEV_API_SERVER_PORT, radix);
+const PORT = parseInt(process.env.REACT_APP_DEV_API_SERVER_PORT, radix) || 3501;
 const app = express();
 
-// NOTE: CORS is only needed in this dev API server because it's
-// running in a different port than the main app.
+// Logging to verify environment variables
+console.log('Starting API server...');
+console.log('PORT:', PORT);
+console.log('REACT_APP_CANONICAL_ROOT_URL:', process.env.REACT_APP_CANONICAL_ROOT_URL);
+
 app.use(
   cors({
     origin: process.env.REACT_APP_CANONICAL_ROOT_URL,
