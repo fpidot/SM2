@@ -5,6 +5,7 @@
 import { types as sdkTypes, transit } from './sdkLoader';
 import config from '../config';
 import Decimal from 'decimal.js';
+import axios from 'axios';
 
 export const apiBaseUrl = () => {
   const port = process.env.REACT_APP_DEV_API_SERVER_PORT;
@@ -114,4 +115,85 @@ export const transitionPrivileged = body => {
 // be sent in the body.
 export const createUserWithIdp = body => {
   return post('/api/auth/create-user-with-idp', body);
+};
+
+// Fetch user data from the local API endpoint.
+//
+// This function will send a GET request to the backend to fetch user data.
+export const fetchUserData = (userId) => {
+  const url = `${apiBaseUrl()}/api/users/${userId}`;
+  const options = {
+    method: 'GET',
+    credentials: 'include',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  };
+  return window.fetch(url, options).then(res => {
+    const contentTypeHeader = res.headers.get('Content-Type');
+    const contentType = contentTypeHeader ? contentTypeHeader.split(';')[0] : null;
+
+    if (res.status >= 400) {
+      return res.json().then(data => {
+        let e = new Error();
+        e = Object.assign(e, data);
+        throw e;
+      });
+    }
+    if (contentType === 'application/json') {
+      return res.json();
+    }
+    return res.text();
+  });
+};
+
+// Fetch all users from the local API endpoint.
+//
+// This function will send a GET request to the backend to fetch all users.
+export const fetchAllUsers = () => {
+  const url = `${apiBaseUrl()}/api/users`;
+  const options = {
+    method: 'GET',
+    credentials: 'include',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  };
+  return window.fetch(url, options).then(res => {
+    const contentTypeHeader = res.headers.get('Content-Type');
+    const contentType = contentTypeHeader ? contentTypeHeader.split(';')[0] : null;
+
+    if (res.status >= 400) {
+      return res.json().then(data => {
+        let e = new Error();
+        e = Object.assign(e, data);
+        throw e;
+      });
+    }
+    if (contentType === 'application/json') {
+      return res.json();
+    }
+    return res.text();
+  });
+};
+
+// New API method to receive user info from SM
+export const receiveUserInfo = (userInfo) => {
+  return axios.post(`${apiBaseUrl()}/api/auth/receive-user-info`, userInfo, {
+    withCredentials: true,
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+};
+
+// Exporting all functions as an object
+export default {
+  transactionLineItems,
+  initiatePrivileged,
+  transitionPrivileged,
+  createUserWithIdp,
+  fetchUserData,
+  fetchAllUsers,
+  receiveUserInfo,
 };

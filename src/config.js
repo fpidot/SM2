@@ -5,6 +5,7 @@ import { currencyConfiguration } from './currency-config';
 
 const env = process.env.REACT_APP_ENV;
 const dev = process.env.REACT_APP_ENV === 'development';
+const backendUrl = process.env.REACT_APP_API_BASE_URL || 'http://localhost:3501';
 
 // CDN assets for the app. Configurable through Flex Console.
 // Currently, only translation.json is available.
@@ -74,12 +75,17 @@ const sdkTransitVerbose = process.env.REACT_APP_SHARETRIBE_SDK_TRANSIT_VERBOSE =
 
 // Marketplace currency.
 // It should match one of the currencies listed in currency-config.js
-const currencyConf = process.env.REACT_APP_SHARETRIBE_MARKETPLACE_CURRENCY;
+const currencyConf = process.env.REACT_APP_SHARETRIBE_MARKETPLACE_CURRENCY || 'YOUR_CUSTOM_CURRENCY';
 const currency = currencyConf ? currencyConf.toUpperCase() : currencyConf;
 
-// Currency formatting options.
-// See: https://github.com/yahoo/react-intl/wiki/API#formatnumber
-const currencyConfig = currencyConfiguration(currency);
+let currencyConfig;
+try {
+  currencyConfig = currencyConfiguration(currency);
+} catch (e) {
+  console.error(e.message);
+  // Fallback to a default currency configuration if necessary
+  currencyConfig = currencyConfiguration('USD');
+}
 
 // Listing minimum price in currency sub units, e.g. cents.
 // 0 means no restriction to the price
@@ -240,6 +246,7 @@ const config = {
   usingSSL,
   maps,
   custom,
+  API_BASE_URL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:3501',
 };
 
 export default config;

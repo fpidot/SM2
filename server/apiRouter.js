@@ -9,6 +9,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { deserialize } = require('./api-util/sdk');
+const fetchUserData = require('./auth');
 
 const initiateLoginAs = require('./api/initiate-login-as');
 const loginAs = require('./api/login-as');
@@ -47,12 +48,23 @@ router.use((req, res, next) => {
   next();
 });
 
+// Use the middleware to fetch user data
+router.use(fetchUserData);
+
 // ================ API router endpoints: ================ //
 
 router.get('/initiate-login-as', initiateLoginAs);
 router.get('/login-as', loginAs);
 router.post('/transaction-line-items', transactionLineItems);
-router.post('/initiate-privileged', initiatePrivileged);
+router.post('/initiate-privileged', async (req, res) => {
+  try {
+    const result = await initiatePrivileged(req.body);
+    res.json(result);
+  } catch (error) {
+    console.error('Error in /api/initiate-privileged:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
 router.post('/transition-privileged', transitionPrivileged);
 
 // Create user with identity provider (e.g. Facebook or Google)
@@ -79,5 +91,32 @@ router.get('/auth/google', authenticateGoogle);
 // with Google. In this route a Passport.js custom callback is used for calling
 // loginWithIdp endpoint in Flex API to authenticate user to Flex
 router.get('/auth/google/callback', authenticateGoogleCallback);
+
+// Add route to create a new listing
+router.post('/listings', async (req, res) => {
+  try {
+    const listing = await Listing.create({ ...req.body, ownerId: req.user.id });
+    res.status(201).json(listing);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+});
+
+// Other CRUD operations for listings...
+
+// Transaction processing route
+router.post('/transactions', async (req, res) => {
+  try {
+    // Logic for processing a transaction
+    res.status(201).json({ message: 'Transaction processed' });
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+});
+
+router.get('/listings', (req, res) => {
+  // Logic to fetch and return listings
+  res.json({ message: 'List of listings' });
+});
 
 module.exports = router;

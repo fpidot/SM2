@@ -13,16 +13,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/contracts', contractsRouter);
-app.use('/users', usersRouter);
-
 // Example endpoint to get contracts
 app.get('/contracts', async (req, res) => {
-    if (!sequelize) {
-        return res.status(500).json({ error: 'Sequelize not initialized. Please check your credentials.' });
-    }
     try {
-        const data = await sequelize.models.Contract.findAll();
+        const { data, error } = await supabase.from('contracts').select('*');
+        if (error) throw error;
         res.json(data);
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -30,8 +25,6 @@ app.get('/contracts', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-sequelize.sync().then(() => {
-    app.listen(PORT, () => {
-        console.log(`Server running on port ${PORT}`);
-    });
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });

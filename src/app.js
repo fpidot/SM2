@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactDOMServer from 'react-dom/server';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import UserDataPage from './components/UserDataPage';
 
 // react-dates needs to be initialized before using any react-dates component
 // https://github.com/airbnb/react-dates#initialize
@@ -65,6 +67,18 @@ const addMissingTranslations = (sourceLangTranslations, targetLangTranslations) 
 
   return missingKeys.reduce(addMissingTranslation, targetLangTranslations);
 };
+
+const App = () => (
+  <Router>
+    <Switch>
+      {/* Other routes */}
+      <Route path="/user-data" component={UserDataPage} />
+    </Switch>
+  </Router>
+);
+
+export default App;
+
 
 // Get default messages for a given locale.
 //
