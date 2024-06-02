@@ -139,6 +139,9 @@ app.use('/static', express.static(path.join(buildPath, 'static')));
 app.use('/robots.txt', express.static(path.join(buildPath, 'robots.txt')));
 app.use(cookieParser());
 
+app.use(bodyParser.json()); // Parse JSON body
+app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded form data
+
 // These .well-known/* endpoints will be enabled if you are using FTW as OIDC proxy
 // https://www.sharetribe.com/docs/cookbook-social-logins-and-sso/setup-open-id-connect-proxy/
 // We need to handle these endpoints separately so that they are accessible by Flex
