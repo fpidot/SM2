@@ -22,3 +22,18 @@ exports.basicAuth = (username, password) => {
     }
   };
 };
+
+const axios = require('axios');
+
+async function fetchUserData(req, res, next) {
+  try {
+    const { userId } = req.headers;
+    const response = await axios.get(`https://sm-api.example.com/users/${userId}`);
+    req.user = response.data;
+    next();
+  } catch (error) {
+    res.status(401).send('Unauthorized');
+  }
+}
+
+module.exports = fetchUserData;

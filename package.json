@@ -20,6 +20,7 @@
     "basic-auth": "^2.0.1",
     "body-parser": "^1.18.3",
     "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
     "classnames": "^2.2.6",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
@@ -39,7 +40,10 @@
     "final-form-arrays": "^3.0.2",
     "full-icu": "^1.4.0",
     "helmet": "^4.6.0",
+    "http-browserify": "^1.7.0",
+    "https-browserify": "^1.0.0",
     "jose": "4.8.1",
+    "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
     "mapbox-gl-multitouch": "^1.0.3",
     "moment": "^2.29.4",
@@ -51,12 +55,12 @@
     "path-browserify": "^1.0.1",
     "path-to-regexp": "^6.1.0",
     "pg": "^8.11.5",
+    "process": "^0.11.10",
     "prop-types": "^15.7.2",
     "query-string": "^6.13.1",
     "querystring-es3": "^0.2.1",
     "raf": "^3.4.0",
     "react": "^16.13.1",
-    "react-app-rewired": "^2.2.1",
     "react-dates": "^21.3.1",
     "react-dom": "^16.13.1",
     "react-final-form": "^6.5.9",
@@ -98,7 +102,8 @@
     "enzyme-to-json": "^3.5.0",
     "inquirer": "^7.3.3",
     "nodemon": "^2.0.4",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "react-app-rewired": "^2.2.1"
   },
   "resolutions": {
     "react-dates/lodash": "^4.17.19",
@@ -113,22 +118,23 @@
     }
   },
   "scripts": {
+    "build": "craco build",
     "audit": "yarn audit --json | node scripts/audit.js",
     "clean": "rm -rf build/*",
     "config": "node scripts/config.js",
     "config-check": "node scripts/config.js --check",
-    "dev": "yarn run config-check && cross-env NODE_ENV=development concurrently --kill-others \"yarn run dev-frontend\" \"yarn run dev-backend\"",
+    "dev": "yarn run config-check && cross-env NODE_ENV=development REACT_APP_DEV_API_SERVER_PORT=3501 concurrently --kill-others \"yarn run dev-frontend\" \"yarn run dev-backend\"",
     "dev-frontend": "craco start",
     "dev-backend": "nodemon server/apiServer.js",
     "build": "react-app-rewired build",
+    "eject": "craco eject"
     "format": "prettier --write '**/*.{js,css}'",
     "format-ci": "prettier --list-different '**/*.{js,css}'",
     "format-docs": "prettier --write '**/*.md'",
-    "test": "react-app-rewired test",
+    "test": "craco test",
     "test-ci": "yarn run test-server --runInBand && react-app-rewired test --runInBand",
-    "eject": "sharetribe-scripts eject",
     "backend-start": "node backend.js",
-    "start": "react-app-rewired start",
+    "start": "node server/apiServer.js",
     "dev-server": "cross-env NODE_ENV=development PORT=4000 REACT_APP_CANONICAL_ROOT_URL=http://localhost:4000 yarn run build && nodemon --watch server server/index.js",
     "test-server": "jest ./server/**/*.test.js",
     "heroku-postbuild": "yarn run build",
@@ -153,5 +159,15 @@
     "singleQuote": true,
     "trailingComma": "es5",
     "proseWrap": "always"
+  },
+  "browser": {
+    "fs": false,
+    "path": "path-browserify",
+    "zlib": "browserify-zlib",
+    "stream": "stream-browserify",
+    "crypto": "crypto-browserify",
+    "http": "stream-http",
+    "os": "os-browserify",
+    "querystring": "querystring-es3"
   }
 }
